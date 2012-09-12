@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.widget.radialmenu;
+package com.touchmenotapps.widget.radialmenu.menu.v1;
 
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.widget.radialmenu;
+package com.touchmenotapps.widget.radialmenu.menu.v1;
 
 import java.util.ArrayList;
 import java.util.List;
