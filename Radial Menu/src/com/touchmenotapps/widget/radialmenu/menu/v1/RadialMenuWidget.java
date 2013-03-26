@@ -1,5 +1,5 @@
-/*
- * Copyright (C) 2012 
+
+/** Copyright (C) 2012 
  * Jason Valestin (valestin@gmail.com ) and Arindam Nath (strider2023@gmail.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
