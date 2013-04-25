@@ -139,8 +139,7 @@ public class SemiCircularRadialMenu extends View {
 				centerRadialColor = RadialMenuColors.HOLO_LIGHT_BLUE;
 				isMenuTogglePressed = true;
 				invalidate();
-			}
-			if(isMenuVisible) {
+			} else if(isMenuVisible) {
 				if(mMenuItems.size() > 0) {
 					for(SemiCircularRadialMenuItem item : mMenuItems.values()) {
 						if(mMenuRect.contains((int) x, (int) y))

@@ -135,13 +135,13 @@ public class RadialProgressWidget extends View {
 		canvas.drawCircle(getWidth()/ 2, getHeight() / 2, mRadius, mRadialWidgetPaint);		
 		mRadialWidgetPaint.setStyle(Style.FILL);
 		//Draw the score radial
-		if(mCurrentValue < mMaxValue) {
+		if(mCurrentValue <= mMaxValue) {
 			double sweepAngle = ((mCurrentValue * mMaxSweepAngle) / mMaxValue); //Calculate the arc span
 			//Determine the color of the score radial from the given array of colors
 			readingValuePer = (mCurrentValue * 100) /mMaxValue;
 			for(int counter = 1; counter <= mScoreColorRange.length; counter++) {
 				int colorPer = (counter * 100)/mScoreColorRange.length;
-				if(readingValuePer < colorPer) {
+				if(readingValuePer <= colorPer) {
 					mCurrentScoreColorPointer = (counter -1);
 					break;
 				}
